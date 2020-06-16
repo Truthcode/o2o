@@ -15,7 +15,7 @@ import java.util.List;
  * @date 2020年6月15日
  */
 @Service
-public class AreaServiceImpl implements AreaService {
+public class AreaServiceImp implements AreaService {
     @Autowired
     private AreaDao areaDao;
 

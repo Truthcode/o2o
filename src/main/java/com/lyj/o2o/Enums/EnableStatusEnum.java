@@ -6,11 +6,14 @@ package com.lyj.o2o.Enums;
  * @date 2020年6月20日
  */
 public enum EnableStatusEnum {
-    UNAVAILABLE(0, "不可用"), AVAILABLE(1, "可用"), CHECK(2, "审核中");
+    UNAVAILABLE(0, "不可用"),
+    AVAILABLE(1, "可用"),
+    CHECK(2, "审核中");
+
     private int state;
     private String stateInfo;
 
-    private EnableStatusEnum(int state, String stateInfo) {
+    EnableStatusEnum(int state, String stateInfo) {
         this.state = state;
         this.stateInfo = stateInfo;
     }
